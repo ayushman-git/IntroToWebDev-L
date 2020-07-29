@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <ul class="css-list specifity">
+    <li class="css-list-list">
+      In CSS the rule which is defined in the last is applied to the html. If they have the same specificity.
+    </li>
+    <li class="css-list-list">
+      Specificity refers to the priority given to the rule. So if a rule have multiple selector (.class-a.classb) or
+      specific selector which means defining the ruleset with a class or ID will have higher specifity than calling the
+      tag directly.
+    </li>
+    <li class="css-list-list">
+      IDs have more specificity than multiple classes and !important have the highest specificity. <strong>We should
+        always avoid IDs and !important in CSS because its add more complexity to the code. Instead of giving it more
+        specificity, we should use class to directly access it from a single location.</strong>
+    </li>
+    <li class="css-list-list">One usecase of using !important is to override the ruleset of a library. But in this case also we can put our
+      css file after the library file in head tag.</li>
+    <li class="css-list-list">
+      A pseudo-class is a special class that determines the state of the element it is attached to. Eg :hover :active
+      etc
+    </li>
+    <li class="css-list-list">We can use :first-child :last-child to select that particular child.</li>
+    <li>* universal selector</li>
+  </ul>
+  <button class="pseudo-hover">Hover</button>
+</body>
+
+</html>

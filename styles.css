@@ -1,0 +1,31 @@
+.navbar {
+  display: inline;
+}
+
+.css-list.specifity {
+  color: green;
+}
+
+.css-list {
+  color: red;
+}
+
+ul {
+  color: purple !important;
+}
+
+.pseudo-hover:hover {
+  color: white;
+  background-color: black;
+}
+
+.css-list-list:first-child {
+  background-color: royalblue;
+}
+.css-list-list:nth-child(even) {
+  background-color: rgb(214, 204, 115);
+}
+
+.css-list-list:last-child {
+  background-color: rgb(231, 103, 103);
+}
