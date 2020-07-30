@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Display</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <ul class="display-ul">
+    <li>
+      Everything in CSS is in rectangle. It can be of two types - <em>block</em> - which takes up the whole width or
+      <em>inline</em> - which can be put in-between other elements.
+    </li>
+    <li>
+      If an element is given inline value or its by default then it will ignore the width or heigth properties. We have
+      to give them <strong>inline-block</strong> value.
+    </li>
+    <li>If we want to have a default font-size, font etc we should put it in body {} not in * {}</li>
+    <li>.a .b will select every .b class inside .a class. <br>
+      .a > .b will only select the immediate child of .a class. Anything nested inside .b class with same name will not
+      be affected.
+    </li>
+  </ul>
+  <div class="border-boox">
+    <h1>box-sizing: border-box</h1>
+    actual 200px (it includes everything except margin)
+  </div>
+  <div class="border-boox-1">
+    <h1 class="content-boox-heading">box-sizing: content-box</h1>
+    not actual 200px (bcuz it don't include padding and border)
+    <p>Just to <span class="content-boox-heading">Check</span></p>
+  </div>
+</body>
+
+</html>
