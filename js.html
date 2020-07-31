@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScript</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <ul>
+  <ul class="event-delegation">
     <li>Template Literals - They are strings put in backticks <strong>`name ${varName)`</strong></li>
     <li>Number data type incluedes all numbers including 3,3.4 -3 etc.</li>
     <li>Difference between === and == is that === don't changes the variable type before comparing but == implicitly
@@ -20,8 +21,33 @@
     <li>Procedural programming means writing code without a function (blocks) and write them step-by-step - like a
       procedure.</li>
     <li>We should avoid using global var as they can be used and changed by anything.</li>
+    <hr>
     <li>Object can have other objets as well as functions.</li>
+    <li>In basic terms - <strong>Context (this)</strong> is used to access variables inside an object. This refers to
+      the parent component. So in the <code>main.js</code> this refers to obj object.</li>
+    <li>
+      The context of this changes based on where a function is called from. See eg on <code>main.js</code>. So it is
+      determined from where the function is being called from.
+    </li>
+    <li>Object don't have order but arrays do.</li>
+    <ul>
+      <li>
+        "a string".length - Here length is a property of the string. While defining string or other data types JS
+        provides some important properties and methods for them.
+      </li>
+      <li>"a string".toUpperCase() - toUpperCase() is a method of the string.</li>
+    </ul>
+    <li>.join() function without an argument will join an array. If we put an argument inside join then it will join as
+      well as put that argument in-between each element of the array.</li>
+    <li>
+      Method technically means a function in an object.
+    </li>
+    <li>.document and DOM are the same things. HTML structures the DOM and JS can use this DOM to make further
+      modification and functionality.</li>
+    <li>A function should only perform a single task.</li>
+    <li>const A_NAME is a programming convention of naming variables that should never be changed.</li>
   </ul>
+  <div class="event-box"></div>
   <script src="./main.js"></script>
 </body>
 

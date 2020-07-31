@@ -97,3 +97,16 @@ ul {
   width: 180px;
   background-color: rgb(116, 226, 43);
 }
+
+.event-box {
+  width: 5em;
+  height: 5em;
+  background-color: red;
+  animation: animate 3s linear;
+  animation-delay: 1s;
+}
+@keyframes animate {
+  100% {
+    transform: translateX(500px);
+  }
+}
